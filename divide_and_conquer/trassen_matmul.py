@@ -7,7 +7,7 @@ Created on Thu Nov 28 19:03:35 2019
 
 import numpy as np
 
-# matrix must be square
+# matrix must be square and dim be even
 def trassen_matmul(X, Y):
     X_shape = X.shape
     Y_shape = Y.shape
